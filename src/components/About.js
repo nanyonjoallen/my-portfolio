@@ -34,16 +34,16 @@ function About() {
                             {/* my links */}
                             <Col className="d-flex justify-content-center flex-wrap p-5">
                                 <div>
-                                    <a href="#"><Button variant="outline-primary">Get in Touch</Button></a>
+                                    <a href="/Contact"><Button variant="outline-primary">Get in Touch</Button></a>
                                 </div>
                                 <div>
-                                    <a href="#"><Button variant="outline-success">My Resume</Button></a>
+                                    <a href="/Contact"><Button variant="outline-success">My Resume</Button></a>
                                 </div>
                                 <div>
-                                    <a href="#"><Button variant="outline-dark">Github</Button></a>
+                                    <a href="/Contact"><Button variant="outline-dark">Github</Button></a>
                                 </div>
                                 <div>
-                                    <a href="#"><Button variant="outline-info">Linkedin</Button></a>
+                                    <a href="/Contact"><Button variant="outline-info">Linkedin</Button></a>
                                 </div>
                             </Col>
                         </Row>

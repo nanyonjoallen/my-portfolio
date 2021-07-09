@@ -17,7 +17,7 @@ function Header() {
                 loop/>
                 <br/>
                 <Button variant="warning">Contact</Button>{' '}
-                <a href="#" className="btn-lost"></a>
+                <a href="/Contact" className="btn-lost">hhh</a>
                 </div>
                 
             </div>
