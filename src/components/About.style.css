@@ -1,23 +1,32 @@
+
 .about-section {
-    background-color: transparent;
+    background-color: #090c41;
     font-size: 1.1rem;
 }
-.profile {
-  max-width: 18em;
+.about-container h1{
+  color: #ed4855;
 }
+/* .container{
+  background-color: green;
+} */
+/* .profile {
+  max-width: 18em;
+} */
 
 .my-details {
-  background-color: rgba(255, 255, 255, 0.747);
+  /* background-color: #0e0f49; */
+  color: whitesmoke;
+  
 }
-.container-box{
+/* .container{
     width: 80%;
     background-color: transparent;
     position: relative;
     z-index: 9;
-  }
+  } */
   hr {
     border: 0;
     height: 1px;
-    color: tomato;
+    color: #ed4855;
     /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); */
   }

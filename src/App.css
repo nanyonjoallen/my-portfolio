@@ -1,14 +1,25 @@
 .App {
   text-align: center;
 }
-
-Navbar{
-  z-index: 2;
+.navbar{
+  background-color:  #0a0726;
 }
-/* Navigation menu */
-Navbar Nav Nav.Link {
-  font-weight: 500;
-  color: blue;
+.navbar-brand{
+  /* padding-right: 0px; */
+  margin-left: 80px;
+}
+.navbar-nav {
+  margin-left: 150px;
+}
+.nav-link{
+  font-size: 16px;
+}
+Nav.Link:hover{
+  color: #ed4855;
+}
+
+.nav-button{
+  margin-right: 20px;
 }
 /* header */
 .header-wraper {
@@ -25,29 +36,31 @@ Navbar Nav Nav.Link {
   align-items: center;
   text-align: center; 
 }
-.main-info h3{
- color: tomato;
+.main-info h1{
+ color: white;
  /* text-transform: uppercase; */
- font-size: 40px;
- margin-top: 100px;
- 
+ font-size: 70px;
+ margin-top: 200px; 
+}
+h1 span {
+  color: #ed4855;
 }
 
 /* typed text */
 .typed-text{
-  font-size: 2rem;
-  color: yellow;
+  font-size: 3rem;
+  color: whitesmoke;
+  /* padding-bottom: 20px; */
+  margin-bottom: 10px;
   /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center; */
 }
-/* .my-btn{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
+.my-btn{
+  margin-top: 30px;
+}
 
 .tsparticles-canvas-el {
   position: absolute;

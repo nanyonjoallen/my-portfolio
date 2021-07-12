@@ -9,14 +9,17 @@ import Button from 'react-bootstrap/Button';
 
 function About() {
     return (
+       
+
         <div className="about-section" id="about-me">
-            <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
-            <Container>
+            <Container fluid className="about-container">
+            <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
+                <Container className="about-container2">
                 <Row className="pt-3 pb-5 align-items-center">
                     {/* my profile */}
                     <Col xs={12} md={6}>
                         <Row className="justify-content-center mb-2 mr-2">
-                            <Image className="profile justify-content-end" alt="allen's pic" src={Profile} roundedCircle />
+                            <Image className="profile justify-content-center" alt="allen's pic" src={Profile} roundedCircle />
                         </Row>
                     </Col>
                     {/* my profile description */}
@@ -34,24 +37,26 @@ function About() {
                             {/* my links */}
                             <Col className="d-flex justify-content-center flex-wrap p-5">
                                 <div>
-                                    <a href="/Contact"><Button variant="outline-primary">Get in Touch</Button></a>
+                                    <a className="px-1 py-2" href="/Contact"><Button variant="outline-primary">Lets Chat</Button></a>
                                 </div>
                                 <div>
-                                    <a href="/Contact"><Button variant="outline-success">My Resume</Button></a>
+                                    <a  className=" font-italic px-1 py-2" href="/Contact"><Button variant="outline-success">My Resume</Button></a>
                                 </div>
                                 <div>
-                                    <a href="/Contact"><Button variant="outline-dark">Github</Button></a>
+                                    <a className="px-1 py-2"  href="/Contact"><Button variant="outline-dark">Github</Button></a>
                                 </div>
                                 <div>
-                                    <a href="/Contact"><Button variant="outline-info">Linkedin</Button></a>
+                                    <a className="px-1 py-2"  href="/Contact"><Button variant="outline-info">Linkedin</Button></a>
                                 </div>
                             </Col>
                         </Row>
                     </Col>
-                </Row>
+                </Row> 
             </Container>
-            <hr/>
+            </Container> 
+            {/* <hr/>    */}
         </div>
+        
     )
 }
 

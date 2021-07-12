@@ -3,13 +3,14 @@ import NavigationBar from "./components/NavigationBar";
 import Header from "./components/Header";
 import './App.css';
 import Particles from "react-particles-js";
+import About from "./components/About";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import About from "./components/About";
+import Experience from "./components/Experience";
 import { Parallax } from "react-parallax";
 import Container from  "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
-
 
 function App() {
   return (
@@ -44,12 +45,14 @@ function App() {
           strength={-200}>
         <Container className="container-box rounded">
           <Fade duration ={500}>
-            <About/>
+            {/* <About/> */}
           </Fade>  
         </Container>   
         </Parallax>       
       </div>
-      {/* <About/> */}
+      <About/>
+      <Experience/>
+      <Projects/>
       <Footer/>
       </div>
         
