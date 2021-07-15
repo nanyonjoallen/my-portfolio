@@ -27,7 +27,7 @@ function NavigationBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navbar-nav justify-content-center p-4">
-            <Nav.Link className="nav-link text-white px-3 py-2" as ={Link} to ={"/home"} active>Home</Nav.Link>
+            <Nav.Link className="nav-link text-white px-3 py-2" as ={Link} active to ={"/home"}>Home</Nav.Link>
             <Nav.Link className="nav-link text-white px-3 py-2" as ={Link} to ={"/about"}>About</Nav.Link>
             <Nav.Link className="nav-link text-white px-3 py-2" as ={Link} to ={"/projects"}>Projects</Nav.Link>
             <Nav.Link className="nav-link text-white px-3 py-2" as ={Link} to ={"/skills"}>Skills</Nav.Link>

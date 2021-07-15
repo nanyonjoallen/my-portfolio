@@ -54,7 +54,7 @@ function About() {
                 </Row> 
             </Container>
             </Container> 
-            {/* <hr/>    */}
+            {/* <hr/>    */}            
         </div>
         
     )
